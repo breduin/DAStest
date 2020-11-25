@@ -2,7 +2,7 @@ from ajax_select import register, LookupChannel
 from .models import *
 
 @register('authors')
-class ClientsLookup(LookupChannel):
+class AuthorsLookup(LookupChannel):
 
     model = Author
     min_length = 1 # Minimum number of characters user types before a search is initiated.
